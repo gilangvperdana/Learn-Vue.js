@@ -52,14 +52,14 @@
             }
         },
         created() {
-            axios.get('https://api.bignetlab.com/posts').then(response => {
+            axios.get('https://stg1-api.gbesar.com/posts').then(response => {
                 this.posts = response.data.data;
             });
         },
         methods: {
             PostDelete(id)
             {
-                axios.delete(`https://api.bignetlab.com/posts/${id}`)
+                axios.delete(`https://stg1-api.gbesar.com/posts/${id}`)
                     .then(response => {
                         this.posts.splice(this.posts.indexOf(id), 1);
                         console.log(response);

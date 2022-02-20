@@ -57,7 +57,7 @@
         },
         methods: {
             PostStore() {
-                axios.post('https://api.bignetlab.com/posts', this.post)
+                axios.post('https://stg1-api.gbesar.com/posts', this.post)
                     .then((response) => {
                         this.$router.push({
                             name: 'posts'

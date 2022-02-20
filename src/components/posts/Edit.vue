@@ -56,14 +56,14 @@
             }
         },
         created() {
-            axios.get(`https://api.bignetlab.com/posts/${this.$route.params.id}`)
+            axios.get(`https://stg1-api.gbesar.com/posts/${this.$route.params.id}`)
                 .then((response) => {
                 this.post = response.data.data;
             });
         },
         methods: {
             PostUpdate() {
-                axios.put(`https://api.bignetlab.com/posts/${this.$route.params.id}`, this.post)
+                axios.put(`https://stg1-api.gbesar.com/posts/${this.$route.params.id}`, this.post)
                     .then((response) => {
                         this.$router.push({
                             name: 'posts'
