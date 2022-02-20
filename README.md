@@ -1,5 +1,5 @@
-# Learn Frontend with VueJS [https://vuedev.bignetlab.com/]
-   Still learning about Simple CRUD on VueJS with Lumen for Backend on [https://api.bignetlab.com]
+# Learn Frontend with VueJS
+   Still learning about Simple CRUD on VueJS with Lumen for Backend
    
    Backend Repo : https://github.com/gilangvperdana/Learn-Lumen
    
